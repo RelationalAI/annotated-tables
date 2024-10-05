@@ -1,15 +1,16 @@
-# AnnotatedTables: A Large Tabular Dataset with Language Model Annotations
+# TableLabler: Scalable Labeling of Data Tables with Language Models for Tabular Dataset Creation [Scalable Data Science]
 
-Paper: https://arxiv.org/abs/2406.16349
-
+Pre-print submitted to Neurips: https://arxiv.org/abs/2406.16349
 
 ## Installation
 
+```
 conda create -n annotatedtables python=3.10
 conda activate annotatedtables
 pip install tqdm jsonlines pytest pytest-pycharm networkx prodict records babel tabulate openai
 pip install ray openai rai-sdk datasets accelerate fuzzywuzzy python-Levenshtein kaggle wrapt-timeout-decorator
 conda install pandas sqlalchemy
+```
 
 ## Project structure
 ./sql contains the dataset construction code for SQL annotation and SQL-to-Rel translation
