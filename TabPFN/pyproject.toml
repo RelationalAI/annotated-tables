@@ -15,7 +15,7 @@ description = "Interface for using TabPFN and library to train TabPFN'"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies=[
-        'torch>=1.9.0',
+        'torch>=2.13.0',
         'scikit-learn>=0.24.2',
         'pyyaml>=5.4.1',
         'numpy>=1.21.2',
